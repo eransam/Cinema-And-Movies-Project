@@ -7,8 +7,8 @@ class DevelopmentConfig extends Config {
 }
 
 class ProductionConfig extends Config {
-    public cinemasUrl = "http://localhost:3001/api/cinemas/";
-    public moviesPerCinema = "http://localhost:3001/api/movies-per-cinema/";
+    public cinemasUrl = "https://eran-movies-project.herokuapp.com/api/cinemas/";
+    public moviesPerCinema = "https://eran-movies-project.herokuapp.com/api/movies-per-cinema/";
     public movies = "http://localhost:3001/api/movies/";
 }
 
